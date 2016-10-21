@@ -16,7 +16,7 @@ git clone https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
 ```bash
 git clone https://github.com/aleksey-su/vim-config.git ~/Downloads/vim-config/
 cp -r ~/Downloads/vim-config/vim/* ~/.vim/
-mv ~/Downloads/vim-config/vim/.vimrc ~/
+cp ~/Downloads/vim-config/vim/.vimrc ~/
 ```
 
 1) Install python requirements
