@@ -266,11 +266,7 @@ let g:pymode_run = 0
 
 " Other options
 let g:pymode_options_colorcolumn = 0
-if has("gui_running")
-    let g:airline_powerline_fonts = 1
-else
-    let g:airline_powerline_fonts = 0
-endif
+let g:airline_powerline_fonts = 1
 
 "=====================================================
 " User hotkeys
