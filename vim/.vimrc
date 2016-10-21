@@ -101,9 +101,7 @@ set mousemodel=popup
 set ruler
 set completeopt-=preview
 set gcr=a:blinkon0
-if has("gui_running")
-    set cursorline
-endif
+set cursorline
 set ttyfast
 
 colorscheme nightly
