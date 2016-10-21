@@ -11,10 +11,6 @@ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```bash
 git clone https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
 ```
-Run at Vim's command line:
-```
-:helptags ~/.vim/bundle/ctrlp.vim/doc
-```
 
 4) Clone repository somewhere and copy settings:
 ```bash
@@ -30,6 +26,7 @@ pip install -r ~/Downloads/vim-config/req.txt
 
 5) Run VIM and enter:
 ```bash
+:helptags ~/.vim/bundle/ctrlp.vim/doc
 :PluginInstall
 ```
 
